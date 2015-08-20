@@ -10,10 +10,12 @@ homebrew_cask_apps:
   - lighttable
   - sublime-text3
 
+#Docker
+  # - docker-toolbox      
+
 #DEV
   - java       
   - virtualbox
-  - dockertoolbox      
   - charles      
   - sourcetree
 
