@@ -15,7 +15,7 @@
     - projects.yml
 
   tasks:
-    - name: Get list of installed homebrew packages.
+    - name: Tap homebrews.
       homebrew_tap: tap={{ item }} state=present
       with_items: homebrew_taps
 
