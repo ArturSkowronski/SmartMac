@@ -39,11 +39,13 @@
       command: brew cask install {{ item }} --appdir={{ homebrew_cask_appdir }}
       with_items: homebrew_cask_apps
       when: "'{{ item }}' not in homebrew_cask_list.stdout"
+      sudo: yes
 
     - name: Install configured homebrew packages.
       command: "brew install {{ item }}"
       with_items: homebrew_installed_packages
       when: "'{{ item }}' not in homebrew_list.stdout"
+      sudo: yes
 
     - name: Install configured ruby packages.
       command: "gem install {{ item }}"
