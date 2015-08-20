@@ -8,7 +8,6 @@ homebrew_cask_apps:
 #IDE
   - intellij-idea        
   - lighttable
-  - sublime-text3
 
 #Docker
   # - docker-toolbox      
