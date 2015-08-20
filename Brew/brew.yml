@@ -1,15 +1,4 @@
 ---
-homebrew_taps:
-  - caskroom/cask
-  - caskroom/versions
-  - homebrew/binary
-  - homebrew/dupes
-  - homebrew/versions
-  - caskroom/versions
-
-
-homebrew_cask_appdir: /Applications
-
 homebrew_installed_packages:
 
 # Git
