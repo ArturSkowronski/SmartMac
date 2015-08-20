@@ -2,7 +2,7 @@
 homebrew_cask_apps:
 
 #Terminal
-  - totalterminal        
+  # - totalterminal        
   - iterm2        
 
 #IDE
