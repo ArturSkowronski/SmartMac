@@ -5,5 +5,7 @@ homebrew_taps:
   - homebrew/binary
   - homebrew/dupes
   - homebrew/versions
-   
+  - caskroom/versions
+
+
 homebrew_cask_appdir: /Applications

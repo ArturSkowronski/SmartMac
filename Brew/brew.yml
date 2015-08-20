@@ -8,18 +8,6 @@ homebrew_installed_packages:
   - git-ignore
   - legit
 
-# Server
-  - heroku-toolbelt		
-
-# DevOps
-  - ansible
-  - docker
-  - dock
-
-# ODBC
-  - freetds
-  - unixodbc
-
 #Scala
   - scala
   - typesafe-activator
@@ -30,9 +18,7 @@ homebrew_installed_packages:
   - zsh
   - ccat
   - bash-completion
-  - mackup
   - wget
-  - fswatch
   - thefuck
 
 #Java
@@ -43,18 +29,7 @@ homebrew_installed_packages:
 #Clojure
   - leiningen
 
-#Haskell
-  - ghc 
-  - cabal-install
-
 #DB
   - postgresql
   - mongodb
   - pgcli
-
-#Tools
-  - highlight
-  - imagemagick 
-  - ttyrec
-  - ffmpeg
-  - https://raw.githubusercontent.com/icholy/ttygif/master/ttygif.rb

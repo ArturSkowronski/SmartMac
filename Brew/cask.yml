@@ -1,31 +1,19 @@
 ---
 homebrew_cask_apps:
-#install caskroom/cask/brew-cask
-#tap caskroom/versions
-
-#Media
-  - chromecast   
-  - vlc      
-  - deezer   
 
 #Terminal
   - totalterminal        
   - iterm2        
 
 #IDE
-  - android-studio
-  - rubymine 
-  - webstorm
   - intellij-idea        
   - lighttable
   - sublime-text3
 
 #DEV
-  - genymotion
   - java       
   - virtualbox
-  - dash   
-  - boot2docker      
+  - dockertoolbox      
   - charles      
   - sourcetree
 
@@ -39,27 +27,13 @@ homebrew_cask_apps:
   - robomongo      
 
 #Utls
-  - flux       
-  - itsycal      
   - retinizer  
-  - teamviewer       
-  - karabiner      
   - totalfinder        
-  - todoist        
-  - simple-comic 
-  - bettertouchtool      
-  - xmind
-  - steam  
-  - evernote
-  - utorrent
-  - flashlight   
-  - unified-remote
   - unrarx
-  - dropbox    
   - cheatsheet
 
 #Communication
   - slack  
   - skype  
-  - mailbox      
+  - hipchat
 
