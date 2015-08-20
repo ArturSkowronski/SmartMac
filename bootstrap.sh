@@ -46,6 +46,10 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
     brew install ansible
 fi
 
+if [[ ! -x /usr/local/bin/ruby ]]; then
+    brew install ruby
+fi
+
 ansible-playbook main.yml --ask-sudo-pass
 
 echo "Your environment is ready. It was a pleasure !                       ";
