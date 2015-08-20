@@ -9,6 +9,10 @@ homebrew_installed_packages:
 
 #DEVOPS
 
+#JS
+  - node
+  - npm
+
 #Scala
   - scala
   - typesafe-activator
