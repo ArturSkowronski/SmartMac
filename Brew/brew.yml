@@ -8,6 +8,8 @@ homebrew_installed_packages:
   - git-ignore
   - legit
 
+#DEVOPS
+
 #Scala
   - scala
   - typesafe-activator

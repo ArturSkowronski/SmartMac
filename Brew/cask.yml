@@ -25,7 +25,8 @@ homebrew_cask_apps:
 #DB
   - postgres     
   - psequel
-  - robomongo      
+  - robomongo
+  # - flyway      
 
 #Utls
   - retinizer  
