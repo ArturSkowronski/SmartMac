@@ -33,6 +33,5 @@ homebrew_installed_packages:
   - leiningen
 
 #DB
-  - postgresql
   - mongodb
   - pgcli
