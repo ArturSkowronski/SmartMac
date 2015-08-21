@@ -28,4 +28,5 @@ npm_packages:
 #Yo
  - yo
  - generator-flux-webapp
- # - generator-angular
+ - generator-angular
+ - generator-flux
