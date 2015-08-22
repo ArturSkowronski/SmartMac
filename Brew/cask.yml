@@ -5,9 +5,6 @@ homebrew_cask_apps:
   # - totalterminal        
   # - iterm2        
 
-#Docker
-  # - docker-toolbox      
-
 #DEV
   - java       
   # - virtualbox
@@ -16,7 +13,8 @@ homebrew_cask_apps:
 #IDE
   - intellij-idea        
 
-
+#Docker
+  - dockertoolbox      
 
 #Browsers
   - google-chrome
