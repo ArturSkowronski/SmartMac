@@ -12,12 +12,6 @@ homebrew_installed_packages:
   - node
   - npm
 
-#Scala
-  - scala
-  - typesafe-activator
-  - sbt
-  - scalaenv
-
 #Shell
   - zsh
   - ccat
