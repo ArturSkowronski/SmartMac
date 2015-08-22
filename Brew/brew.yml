@@ -2,7 +2,7 @@
 homebrew_installed_packages:
 
 # Git
-  - git-flow
+  # - git-flow
   - git-open
   - legit
 
@@ -11,14 +11,14 @@ homebrew_installed_packages:
   - npm
 
 #Shell
-  - zsh
-  - ccat
-  - bash-completion
-  - wget
-  - thefuck
+  # - zsh
+  # - ccat
+  # - bash-completion
+  # - wget
+  # - thefuck
 
 #Java
   - jenv
 
 #DB
-  - mongodb
+  # - mongodb
