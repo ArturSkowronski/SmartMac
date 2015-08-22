@@ -3,35 +3,37 @@ homebrew_cask_apps:
 
 #Terminal
   # - totalterminal        
-  - iterm2        
-
-#IDE
-  - intellij-idea        
+  # - iterm2        
 
 #Docker
   # - docker-toolbox      
 
 #DEV
   - java       
-  - virtualbox
-  - sourcetree
+  # - virtualbox
+  # - sourcetree
+
+#IDE
+  - intellij-idea        
+
+
 
 #Browsers
   - google-chrome
-  - firefox    
+  # - firefox    
 
 #DB
-  - psequel
-  - robomongo
+  # - psequel
+  # - robomongo
 
 #Utls
-  - retinizer  
-  - totalfinder        
-  - unrarx
-  - cheatsheet
+  # - retinizer  
+  # - totalfinder        
+  # - unrarx
+  # - cheatsheet
 
 #Communication
-  - slack  
-  - skype  
+  # - slack  
+  # - skype  
   - hipchat
 

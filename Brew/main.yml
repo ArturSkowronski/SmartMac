@@ -6,5 +6,4 @@ homebrew_taps:
   - homebrew/dupes
   - homebrew/versions
 
-
 homebrew_cask_appdir: /Applications

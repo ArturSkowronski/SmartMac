@@ -6,8 +6,6 @@ homebrew_installed_packages:
   - git-open
   - legit
 
-#DEVOPS
-
 #JS
   - node
   - npm
@@ -21,11 +19,6 @@ homebrew_installed_packages:
 
 #Java
   - jenv
-  - maven
-
-#Clojure
-  - leiningen
 
 #DB
   - mongodb
-  - pgcli

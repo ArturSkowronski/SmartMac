@@ -8,25 +8,25 @@ npm_packages:
 #istanbul-traceur
 
 #Tests
- - karma
- - karma-coverage
- - mocha
- - mocha-traceur
+ # - karma
+ # - karma-coverage
+ # - mocha
+ # - mocha-traceur
 
 #ES6
  - babel
- - regenerator
- - traceur
+ # - regenerator
+ # - traceur
 
 #Tools
  - eslint
- - nodemon
- - express
- - bower
- - http-server
+ # - nodemon
+ # - express
+ # - bower
+ # - http-server
 
 #Yo
  - yo
- - generator-flux-webapp
- - generator-angular
- - generator-flux
+ # - generator-flux-webapp
+ # - generator-angular
+ # - generator-flux
