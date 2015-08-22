@@ -3,8 +3,8 @@ homebrew_installed_packages:
 
 # Git
   # - git-flow
-  - git-open
-  - legit
+  # - git-open
+  # - legit
 
 #JS
   - node
@@ -18,7 +18,7 @@ homebrew_installed_packages:
   # - thefuck
 
 #Java
-  - jenv
+  # - jenv
 
 #DB
   # - mongodb

@@ -14,19 +14,19 @@ npm_packages:
  # - mocha-traceur
 
 #ES6
- - babel
+ # - babel
  # - regenerator
  # - traceur
 
 #Tools
- - eslint
+ # - eslint
  # - nodemon
  # - express
  # - bower
  # - http-server
 
 #Yo
- - yo
+ # - yo
  # - generator-flux-webapp
  # - generator-angular
  # - generator-flux
