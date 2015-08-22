@@ -33,12 +33,6 @@ fi
 # Modify the PATH
 export PATH=/usr/local/bin:$PATH
 
-# Download and install git
-if [[ ! -x /usr/local/bin/git ]]; then
-    echo "Info   | Install   | git"
-    brew install git
-fi
-
 # Download and install python
 if [[ ! -x /usr/local/bin/python ]]; then
     echo "Info   | Install   | python"
@@ -48,10 +42,6 @@ fi
 # Download and install Ansible
 if [[ ! -x /usr/local/bin/ansible ]]; then
     brew install ansible
-fi
-
-if [[ ! -x /usr/local/bin/ruby ]]; then
-    brew install ruby
 fi
 
 ansible-playbook main.yml --ask-sudo-pass
