@@ -45,9 +45,6 @@
       with_items: homebrew_installed_packages
       when: "'{{ item }}' not in homebrew_list.stdout"
 
-    - name: Update Cache.
-      command: "brew update;brew upgrade;brew doctor"
-
     - name: Install configured ruby packages.
       command: "gem install {{ item }}"
       with_items: ruby_gems
