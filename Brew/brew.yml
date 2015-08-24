@@ -20,7 +20,8 @@ homebrew_installed_packages:
 #Java
   # - jenv
   # - maven
-  #
+  # - gradle
+  # - groovy
 
 #DB
   # - mongodb
