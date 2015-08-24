@@ -47,7 +47,6 @@ fi
 curl -s get.gvmtool.net | bash
 
 ansible-playbook main.yml --ask-sudo-pass
-docker-machine create --driver virtualbox srdev
 
 source "/Users/arturskowronski/.gvm/bin/gvm-init.sh"
 gvm install gradle 2.6 
@@ -81,7 +80,7 @@ echo "                            *******                       ";
 now=$(date +"%T")
 
 
-eval "$(docker-machine env dev)"
+eval "$(docker-machine env sr-docker-machine)"
 
 echo "Current time : $now"
 
