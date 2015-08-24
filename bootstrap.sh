@@ -82,6 +82,8 @@ now=$(date +"%T")
 
 eval "$(docker-machine env sr-docker-machine)"
 
+/Projects/candidate-portal/docker/run-zotest-standalone.sh
+
 echo "Current time : $now"
 
 # echo "  Easter Egg seals are happy                                           ";

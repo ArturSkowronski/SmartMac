@@ -63,8 +63,8 @@
       git: "repo=git@github.com:smartrecruiters/smart-proxy dest={{ sr_proxy_destination }} update=no" 
 
     - name: Create Docker Machine
-
       docker_machine:
           name: sr-docker-machine
           state: present
           driver: virtualbox
+          registry: animal:5000

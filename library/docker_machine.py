@@ -52,7 +52,7 @@ def docker_machine_create_digitalocean(module):
 
 def docker_machine_create_virtualbox(module):
     params = module.params
-    cmd = ['docker-machine', 'create', '--driver', params['driver']]
+    cmd = ['docker-machine', 'create', '--driver', params['driver'], "--engine-insecure-registry", params['registry']]
    
     cmd.append(params['name'])
     command(module, cmd)
@@ -71,6 +71,7 @@ def main():
             name=dict(required=True),
             state=dict(choices=['present', 'absent'], required=True),
             driver=dict(choices=DRIVERS),
+            registry=dict(required=False),
 
             digitalocean_access_token=dict(),
             digitalocean_image=dict(),
