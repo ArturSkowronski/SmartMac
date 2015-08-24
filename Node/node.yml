@@ -12,6 +12,11 @@ npm_packages:
  # - karma-coverage
  # - mocha
  # - mocha-traceur
+ # - karma
+ # - karma-ng-html2js-preprocessor
+ # - karma-junit-reporter
+ # - karma-jasmine
+ # - karma-chrome-launcher
 
 #ES6
  # - babel

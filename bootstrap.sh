@@ -80,6 +80,9 @@ echo "                           *********                      ";
 echo "                            *******                       ";
 now=$(date +"%T")
 
+
+eval "$(docker-machine env dev)"
+
 echo "Current time : $now"
 
 # echo "  Easter Egg seals are happy                                           ";
